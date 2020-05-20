@@ -1,0 +1,18 @@
+.hr-portal-top-nav-label > a 
+{
+    color: #6e6e6e !important;
+    font-size: 11px  !important;
+    margin-right: 10px  !important;
+    float: right  !important;
+    text-decoration: none;
+}
+
+
+.hr-portal-top-nav-label :hover
+{
+    background: #ffc107 !important;
+    color: white !important;
+    padding: 2px !important;
+    border-radius: 3px !important;
+
+}
