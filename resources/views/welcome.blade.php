@@ -8,7 +8,6 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         <!-- Styles -->
         <style>
             html, body {
@@ -66,10 +65,6 @@
     <script src="{{asset('js/app.js')}}"></script>
     </head>
     <body>
-        <div id="app">
-            @{{ message }}
-          </div>
-    
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -112,15 +107,3 @@
     </body>
 </html>
 
-<script>
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    message: 'Hello Vue!'
-  },
-  mounted() {
-            console.log('Component mounted.')
-        }
-})
-</script>

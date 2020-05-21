@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="app#/">
-                   <img src="images/assets/personiv/hr-portal-full-logo.png" alt="" style="height: 40px; width: auto">
+                   <img src="public/images/assets/personiv/hr-portal-full-logo.png" alt="" style="height: 40px; width: auto">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
                     <span class="navbar-toggler-icon"></span>

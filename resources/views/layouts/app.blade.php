@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Personiv HR Portal</title>
-    <script src="{{ asset('js/app.js') }}?v=2.0" defer></script>
-    <link href="{{ asset('css/app.css') }}?v=2.0" rel="stylesheet">
+    <script src="{{ asset('public/js/app.js') }}?v=2.0" defer></script>
+    <link href="{{ asset('public/css/app.css') }}?v=2.0" rel="stylesheet">
 </head>
 <body>
     <div id="app">

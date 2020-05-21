@@ -38731,7 +38731,7 @@ var staticRenderFns = [
       _c("img", {
         staticStyle: { height: "40px", width: "auto" },
         attrs: {
-          src: "images/assets/personiv/hr-portal-full-logo.png",
+          src: "public/images/assets/personiv/hr-portal-full-logo.png",
           alt: ""
         }
       })

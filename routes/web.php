@@ -11,13 +11,14 @@
 |
 */
 
+//Will do SPA
 Route::get('/', function () {
-    return view('welcome');
+    return view('main-container');
 });
 
-Route::get('/app', function () {
-    return view('app');
-});
+// Route::get('/app', function () {
+//     return view('app');
+// });
 
 
 Auth::routes();
